@@ -73,7 +73,6 @@ namespace BL.Utilities
             }
             stringBuilder.Append(Digits.equalsTo1000[(ushort)index].ToString() + " ");
             
-
             return stringBuilder.ToString();
         }
     }

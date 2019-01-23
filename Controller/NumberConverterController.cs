@@ -11,7 +11,7 @@ namespace Controller
 {
     public class NumberConverterController
     {
-        const string RULES = "Enter numbers, that have to be converted in words";
+        const string RULES = "Enter numbers, that have to be converted into records";
 
         private IViewer _viever;
         private NumberArr _numbers;
@@ -47,8 +47,6 @@ namespace Controller
                 _viever.ShowMessage(RULES);
             }
         }
-
-
 
     }
 }
